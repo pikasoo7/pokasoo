@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>პიკასოს ავეჯი</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(135deg, #f9f3e7, #fcd5ce, #d8e2dc);
+  }
+
+  header {
+    background: linear-gradient(120deg, #fcd5ce, #f8edeb, #d8e2dc);
+    padding: 30px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+  }
+
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .product-card {
+    background: #ffe5d9;
+    width: 220px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s;
+  }
+
+  .product-card:hover {
+    transform: scale(1.05);
+  }
+
+  .product-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+  .product-card h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #6b4226;
+  }
+
+  .product-card p {
+    font-size: 0.9em;
+    color: #333;
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #f8edeb;
+    margin-top: 40px;
+    font-size: 0.9em;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  პიკასოს ავეჯი
+</header>
+
+<div class="products">
+  <div class="product-card">
+    <img src="https://images.unsplash.com/photo-1600585154340-be6161f1863c?auto=format&fit=crop&w=200&q=80" alt="სკამი">
+    <h3>სკამი A</h3>
+    <p>ფასი: 120₾</p>
+  </div>
+  <div class="product-card">
+    <img src="https://images.unsplash.com/photo-1582582494707-6c2093f28db1?auto=format&fit=crop&w=200&q=80" alt="მაგიდა">
+    <h3>მაგიდა B</h3>
+    <p>ფასი: 250₾</p>
+  </div>
+  <div class="product-card">
+    <img src="https://images.unsplash.com/photo-1581349485867-93b0f7f78628?auto=format&fit=crop&w=200&q=80" alt="კარადა">
+    <h3>კარადა C</h3>
+    <p>ფასი: 500₾</p>
+  </div>
+</div>
+
+<footer>
+  © 2025 პიკასოს ავეჯი | კონტაქტი: info@picaso-furniture.ge
+</footer>
+
+</body>
+</html>
